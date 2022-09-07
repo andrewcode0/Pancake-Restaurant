@@ -1,1 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+#bigdiv {
+    background-image: url('./Images/pic2.png'); 
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+h2{
+    font-style: italic;
+}
+footer {
+    background-color:bisque;
+}

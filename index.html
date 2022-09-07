@@ -12,57 +12,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Clatita Regala</title>
 </head>
 
 <body>
-    <div
-        style="background-image: url('./Images/pic2.png'); background-repeat: no-repeat; height: 100vh; background-size:cover; position: relative; background-position: center;">
+    <div id="bigdiv">
         <div class="container-fluid">
             <h1 class="text-start"><i class="fa-solid fa-crown text-warning"></i>Clatita Regala Bran<i
                     class="fa-solid fa-crown text-warning"></i></h1>
+            <h2 class="text-start">Cele mai bune clatite din Bran!</h2>
             <div class="row">
                 <div class="col">
-                    <button id="but1" class="btn btn-default btn-block btn-warning w-100"><i
-                            class="fa-solid fa-heart text-danger fa-2xl"></i><span class="fs-3">Despre noi</span>
+                    <button id="but1" class="btn btn-default btn-block w-100">
+                        <i class="fa-solid fa-house text-warning fa-2xl"></i><span class="fs-3 fw-bold">Despre noi</span>
                     </button>
-                    <div id="mor" class="col" style="background-color:blanchedalmond; visibility: hidden;">
-                        <img src="Images/pic4.png" class="w-100" />Lorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem
-                        ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem
-                        ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem
-                        ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLore
-                        ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem
-                        ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem
-                        ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem
-                        ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-                        dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem
-                        ipsum dolorLorem ipsum dolor
+                    <div id="c1" class="col" style="background-color:blanchedalmond; visibility: hidden;">
+                        <img src="Images/pic4.png" class="w-100" />
+                        <h2><i class="fa-solid text-warning fa-circle-check"></i>Zilnic ingrediente proaspete</h2>
+                        <h2><i class="fa-solid text-warning fa-circle-check"></i>Cel mai bun raport calitate-pret</h2>
+                        <h2><i class="fa-solid text-warning fa-circle-check"></i>Locatie centrala, aproape de Castelul Bran</h2>
                     </div>
-
-
-
                 </div>
                 <div class="col">
-                    <button onclick="meniu()" class="btn btn-default btn-block btn-warning w-100"><i
-                            class="fa-solid fa-heart text-danger fa-2xl"></i><span class="fs-3">Meniu</span>
+                    <button id="but2" class="btn btn-default btn-block w-100"><i
+                            class="fa-solid fa-heart text-warning fa-2xl"></i><span class="fs-3 fw-bold">Bestseller: clatita cu
+                            nutella si banane</span>
                     </button>
+                    <div id="c2" style="background-color:blanchedalmond; visibility: hidden;">
+                        <img src="Images/pic3.png" class="w-100" />
+                    </div>
                 </div>
                 <div class="col">
-                    <button onclick="contact()" class="btn btn-default btn-block btn-warning w-100"><i
-                            class="fa-solid fa-heart text-danger fa-2xl"></i><span class="fs-3">Contact</span>
+                    <button id="but3" class="btn btn-default btn-block w-100"><i
+                            class="fa-solid fa-phone text-warning fa-2xl"></i><span class="fs-3 fw-bold">Contact</span>
                     </button>
+                    <div id="c3" style="background-color:blanchedalmond; visibility: hidden;">
+                        <img src="Images/pic1.png" class="w-100" />
+                        <h2><i class="fa-solid text-warning fa-circle-check"></i>Adresă: Strada General Traian Moșoiu DN73 7, Bran 507025
+                        </h2>
+                        <h2><i class="fa-solid text-warning fa-circle-check"></i>Program: 
+                            Deschis ⋅ Închide la 19</h2>
+                        <h2><i class="fa-solid text-warning fa-circle-check"></i>Telefon: 0745 027 057</h2>
+                    </div>
                 </div>
 
             </div>
         </div>
+        <footer>
+
+            <p><i class="fa-regular fa-copyright"></i>Made by <a href="https://github.com/andrewcode0"
+                    target="_blank">andrewcode0</a>, september 2022 all rights reserved.</p>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
